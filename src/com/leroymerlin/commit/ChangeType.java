@@ -15,8 +15,8 @@ public enum ChangeType {
     PERFORMANCE("Performance Improvements", "A code change that improves performance"),
     TEST("Tests", "Adding missing tests or correcting existing tests"),
     BUILD("Builds", "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)"),
-    CHORE("Chores", "Other changes that don't modify src or test files");
-
+    CHORE("Chores", "Other changes that don't modify src or test files"),
+    UI("UI", "Changes that affect ui ");
     public final String title;
     public final String description;
 
